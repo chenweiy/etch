@@ -7,9 +7,9 @@ html {
 }
 
 body {
-    font-size: 16px;
-    font-size: 1.6rem;
-    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 20px;
+    font-size: 2.0rem;
+    font-family: Iosevka, 'Noto Serif TC', 'Helvetica Neue', 'Arial', sans-serif;
     color: #313a3d;
     width: 100%;
     margin: 0 auto;
@@ -32,9 +32,10 @@ header#banner a:hover {
 
 header#banner h2 {
     display: inline;
-    font-size: 21px;
-    font-size: 2.1rem;
+    font-size: 45px;
+    font-size: 4.5rem;
     margin: 0 8px 0 0;
+    font-family: 'Lora', serif;
 }
 
 header#banner nav {
@@ -77,9 +78,18 @@ main#content h6 {
     line-height: 1.15;
 }
 
+main#content h2,
+main#content h3,
+main#content h4,
+main#content h5,
+main#content h6 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 main#content h3 {
-    font-size: 19px;
-    font-size: 1.9rem;
+    font-size: 25;
+    font-size: 2.5rem;
 }
 
 main#content h1 + p,
@@ -93,7 +103,7 @@ main#content h6 + p {
 
 main#content p {
     color: #394548;
-    margin: 16px 0;
+    margin: 20 0;
 }
 
 main#content hr {
@@ -106,7 +116,7 @@ main#content hr {
 main#content ul#posts {
     list-style-type: none;
     font-size: 16px;
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     margin-top: 0;
     padding: 0;
 }
@@ -242,12 +252,12 @@ main#content code {
 main#content pre {
     display: block;
     overflow-x: auto;
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 18;
+    font-size: 1.8rem;
     white-space: pre;
     margin: 20px 0;
     padding: 1.5rem 1.5rem;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 main#content pre code {
@@ -259,8 +269,8 @@ main#content section.footnotes {
 }
 
 footer#footer {
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 300;
     color: #949494;
     margin: 40px 0;
