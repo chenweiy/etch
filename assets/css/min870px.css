@@ -29,7 +29,7 @@
     main#content header#post-header h1 {
         font-size: 3.5px;
         font-size: 3.5rem;
-        font-family: 'EB Garamond', 'Noto Serif TC', serif;
+        font-family: 'EB Garamond', 'Noto Sans TC', serif;
         letter-spacing: 0.05em;
     }
 

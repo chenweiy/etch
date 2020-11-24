@@ -9,7 +9,7 @@ html {
 body {
     font-size: 20px;
     font-size: 2.0rem;
-    font-family: Lato, Iosevka, 'Noto Sans TC', 'Helvetica Neue', 'Arial', sans-serif;
+    font-family: Lato, 'Noto Sans TC', 'Helvetica Neue', 'Arial', sans-serif;
     color: #313a3d;
     width: 100%;
     margin: 0 auto;
@@ -32,11 +32,11 @@ header#banner a:hover {
 
 header#banner h2 {
     display: inline;
+    font-weight: 700;
+    font-style: italic;
     font-size: 45px;
     font-size: 4.5rem;
     margin: 0 8px 0 0;
-    font-family: 'EB Garamond', serif;
-    font-weight: 800;
 }
 
 header#banner nav {
@@ -244,7 +244,7 @@ main#content figure figcaption p {
 
 main#content code,
 main#content pre {
-    font-family: 'Menlo', monospace;
+    font-family: Iosevka, 'Menlo', monospace;
 }
 
 main#content code {
