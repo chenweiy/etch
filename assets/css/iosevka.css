@@ -1,9 +1,9 @@
 /* Normal */
 @font-face {
     font-family: 'Iosevka';
-    src: url('/fonts/iosevka-sparkle-regular.woff2') format('woff2'),
-         url('/fonts/iosevka-sparkle-regular.woff') format('woff'),
-         url('/fonts/iosevka-sparkle-regular.ttf') format('truetype');
+    src: url('/fonts/iosevka-ss09-regular.woff2') format('woff2'),
+         url('/fonts/iosevka-ss09-regular.woff') format('woff'),
+         url('/fonts/iosevka-ss09-regular.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -12,9 +12,9 @@
 /* Italic */
 @font-face {
     font-family: 'Iosevka';
-    src: url('/fonts/iosevka-sparkle-italic.woff2') format('woff2'),
-         url('/fonts/iosevka-sparkle-italic.woff') format('woff'),
-         url('/fonts/iosevka-sparkle-italic.ttf') format('truetype');
+    src: url('/fonts/iosevka-ss09-italic.woff2') format('woff2'),
+         url('/fonts/iosevka-ss09-italic.woff') format('woff'),
+         url('/fonts/iosevka-ss09-italic.ttf') format('truetype');
     font-style: normal;
     font-weight: italic;
     text-rendering: optimizeLegibility;
@@ -23,9 +23,9 @@
 /* Bold */
 @font-face {
     font-family: 'Iosevka';
-    src: url('/fonts/iosevka-sparkle-bold.woff2') format('woff2'),
-         url('/fonts/iosevka-sparkle-bold.woff') format('woff'),
-         url('/fonts/iosevka-sparkle-bold.ttf') format('truetype');
+    src: url('/fonts/iosevka-ss09-bold.woff2') format('woff2'),
+         url('/fonts/iosevka-ss09-bold.woff') format('woff'),
+         url('/fonts/iosevka-ss09-bold.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
     text-rendering: optimizeLegibility;
