@@ -18,7 +18,7 @@ body {
 }
 
 header#banner {
-    margin: 25px 0;
+    margin: 25px 0 40px 0;
 }
 
 header#banner a {
@@ -76,7 +76,8 @@ main#content h5,
 main#content h6 {
     margin-bottom: 0;
     line-height: 1.15;
-    font-family: 'EB Garamond', 'Noto Serif TC', serif;
+    /* font-family: 'EB Garamond', 'Noto Serif TC', serif; */
+	font-family: Lato, 'Noto Sans TC', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 main#content h2,
@@ -149,9 +150,10 @@ main#content ul#posts li a:hover small {
 /* single.html styles */
 main#content header#post-header h1 {
     display: block;
-    font-size: 23px;
-    font-size: 2.3rem;
+    font-size: 40px;
+    font-size: 4.0rem;
     line-height: 1.15;
+    letter-spacing: 0.05em;
 }
 
 main#content header#post-header time {
@@ -276,4 +278,15 @@ footer#footer {
     font-weight: 300;
     color: #949494;
     margin: 40px 0;
+}
+
+p code {
+	background: hsla(25deg,75%,25%,0.1);
+	padding: 0.15em 0.33em 0.1em;
+	border: solid #FFF8;
+	border-width: 2px 0;
+}
+
+p strong {
+    font-weight: 800;
 }
